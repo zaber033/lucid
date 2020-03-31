@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i,600,700,900&display=swap');
+
+/* Global CSS */
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+/*=================================================
+		Global Css
+===================================================*/
+
+.sub-title{
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #008ed6;
+}
+.title{
+	font-size: 42px;
+	line-height: 46px;
+	font-weight: 300;
+	color: #fffefe;
+	margin-top: 20px; 
+}
+
+.divider-c{
+	width: 100%;
+	padding: 10px 0px;
+	background: url(../img/divider.png) center top no-repeat;
+}
+.divider-l{
+	width: 100%;
+	padding: 10px 0px;
+	background: url(../img/divider.png) center left no-repeat;
+}
+.btn-primary{
+	background: #008ed6;
+	border: 1px solid #008ed6;
+	color: #fffefe;
+	padding: 10px 30px;
+	border-radius: 2px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.btn-primary:hover{
+	background: #00BCD4;
+	border: 1px solid #00BCD4;
+	color: #fffefe;
+}
+.extra{
+	background: transparent;
+	border: 1px solid #008ed6;
+	color: #fffefe;
+	padding: 10px 30px;
+	border-radius: 2px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+.extra:hover{
+	background: #008ed6! important;
+	color: white;
+	border: 1px solid #008ed6;
+
+}
+.no-padding{
+	padding: 0;
+}
+
+/*===============================================
+	 Header Section code here
+=================================================*/
+
+.header-section{
+	
+}
+ .bg-light {
+    background-color: #0E0D14 !important;
+    opacity: .9;
+}
+
+
+ .navbar-nav .nav-link {
+    color: #fffefe;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 12px 0px 12px;
+}
+ .navbar-nav .nav-link{
+    color: #fff;
+    position: relative;
+
+}
+ .navbar-nav .nav-link::after{
+	content: "";
+	position:absolute;
+	background:#008ed6;
+	height: 2px;
+	width: 0;
+	left: 0;
+	bottom: 0;
+	transition: 0.5s linear;
+}
+ .navbar-nav .nav-link::before{
+	content: "";
+	position:absolute;
+	background:#008ed6;
+	height: 2px;
+	width: 0;
+	right: 0;
+	bottom: 0;
+	transition: 0.5s linear;
+}
+  .navbar-nav .nav-link:hover::after{
+width: 50%;
+}
+.navbar-nav .nav-link:hover::before{
+width: 50%;
+}
+
+
+
+/*=================================================
+	Banner Code goes here....
+===================================================*/
+.banner{
+	
+	background: url(../img/banner-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.banner .row{
+	
+}
+.banner-content{
+	width: 100%;
+	padding: 250px 0px;
+}
+.banner .device{
+	/* top: 105px; */
+	/* margin-top: 121px; */
+	position: absolute;
+	bottom: -135px;
+	right: 0;
+}
+.banner-content p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #999999;
+	margin-top: 20px;
+}
+.banner-content .btn{
+	margin-top: 40px;
+}
+.banner-content .extra{
+	margin-left: 15px;
+	background: transparent;
+
+}
+
+
+
+.features-section{
+	width: 100%;
+	padding: 80px 0px; 
+	margin-top: 50px;
+}
+.features-section .sub-title{
+	text-align: center;
+}
+.features-section .title{
+	text-align: center;
+	color: #000;
+	margin-top:10px;
+	margin-bottom: 25px;
+}
+
+.inner-content{
+	width: 100%;
+	padding: 42px 40px;
+	text-align: center;
+}
+.inner-content .icon-box{
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 100%;
+	border: 1px solid #eee;
+	text-align: center; 
+	margin: 0 auto;
+}
+.inner-content .icon-box .fa{
+	font-size: 34px;
+    line-height: 70px;
+	color: #008ed6;
+}
+.inner-content h4{
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 500;
+	color: #000;
+	margin: 20px 0px 10px 0px;
+}
+.inner-content p{
+	font-size: 14px;
+	font-weight: 300;
+	color: #aaa;
+}
+
+.about-section{
+	border-top: 1px solid #ededed;
+	width: 100%;
+	padding: 80px 0px;
+}
+.about-section .title{
+	color: #000;
+	margin-top: 10px;
+}
+.about-section .divider-l{
+	margin-bottom: 20px;
+}
+.about-section p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #aaa;
+}
+.about-section ul{
+	margin: 0px;
+	padding: 25px 0px 0px 0px;
+}
+
+.about-section ul li{
+	list-style: none;
+	display: block;
+	font-size: 18px;
+	color: #000;
+	line-height: 35px;
+}
+
+.about-section ul li .fa{
+	padding-right: 15px;
+	color: #008ed6;
+}
+
+/*=================================================
+	about section
+===================================================*/
+
+.about-phone{
+	background: #f2f2f2;
+	padding: 80px 0;
+}
+.content-middle{
+	padding: 75px 0;
+}
+.about-phone .title{
+	color: #000;
+	margin-top: 10px;
+}
+.about-phone .divider-l{
+	margin-bottom: 20px;
+}
+.about-phone p{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 300;
+	color: #999999;
+}
+
+/*=================================================
+	testimonial section
+===================================================*/
+
+.testimonial-section{
+	padding: 120px 0;
+	background: url(../img/testimonials.png) no-repeat center;
+	background-size: cover;
+}
+.testimonial-section .title{
+	color: #fff;
+	margin-top: 10px;
+}
+.testimonial-section .divider-c{
+	margin-top: 20px;
+}
+.testimonials-content{
+	margin-top: 50px;
+}
+.owl-carousel .item h4{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	font-weight: 300;
+    font-style: italic;
+    padding: 0 15px;
+}
+.client-details{
+	margin-top: 25px;
+}
+.client-details h5{
+	color: #fff;
+    font-size: 16px;
+}
+.client-details h6{
+	color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 50px;
+}
+
+/* Download Section CSS */
+.download-section{
+	background: #15141a;
+	padding: 70px 0;
+}
+.download-section h1{
+	font-size: 36px;
+	color: #fff;
+	font-weight: 300;
+}
+.download-section h1 span{
+	font-weight: 700;
+}
+.btn-download{
+	margin-left: 10px;
+}
+
+/*=================================================
+	pricing section
+===================================================*/
+
+.pricing-section{
+	padding: 80px 0;
+}
+.pricing-section .title{
+	color: #000;
+    margin-top: 10px;
+}
+.pricing-section .divider-c{
+	margin-bottom: 20px;
+}
+
+.pricing-table{
+	border: 1px solid #ededed;
+}
+.table-heading{
+	border-bottom: 1px solid #ededed;
+	padding: 25px 20px;
+	transition: 0.3s ease-in-out;
+}
+.table-heading h2{
+	color: #333;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.table-pricing{
+	border-bottom: 1px solid #ededed;
+	padding: 25px 20px;
+	transition: 0.3s ease-in-out;
+}
+.table-pricing h2{
+	/*position: relative;*/
+	font-size: 72px;
+	font-weight: 700;
+}
+/*.table-pricing h2::before{
+	content: "$";
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    top: 15px;
+    left: 72px;
+}*/
+.table-pricing sup{
+	font-size: 28px;
+    position: absolute;
+    margin-top: 171px;
+    margin-left: -15px;
+}
+.table-pricing p{
+	margin: 0;
+    color: #bbb;
+    font-size: 18px;
+    line-height: 10px;
+}
+.pricing-details{
+	padding: 25px 20px 35px;
+	transition: 0.3s ease-in-out;
+}
+.pricing-details p{
+	color: #bbb;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.pricing-details p span{
+	color: #008ed6;
+}
+.btn-pricing{
+	color: #008ed6;
+	border: 1px solid #ededed;
+	padding: 8px 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: 0.3s ease-in-out;
+}
+.pricing-table:hover .table-heading h2{
+	color: #008ed6;
+	cursor: pointer;
+}
+.pricing-table:hover .table-pricing{
+	background: #008ed6;
+	color: #fff;
+	cursor: pointer;
+}
+.pricing-table:hover .table-pricing p{
+	color: #fff;
+	cursor: pointer;
+}
+.pricing-table:hover .btn-pricing{
+	background: #008ed6;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*=================================================
+	contact us ....
+===================================================*/
+
+.contact-us{
+	padding-top: 80px;
+	background: #ededed;
+}
+.contact-us .title{
+	color: #000;
+    margin-top: 10px;
+}
+.contact-us .divider-c{
+	margin-bottom: 20px;
+}
+.contact-us .contact-text{
+	margin-top: 20px;
+	text-align: center;
+	padding: 15px;
+}
+.contact-us .contact-text p{
+	padding: 0;
+	margin: 0;
+}
+.contact-us .contact-text .fa{
+	font-size: 38px;
+	color: #008ed6;
+	margin-bottom: 15px;
+}
+
+/*=================================================
+	Banner Code goes here....
+===================================================*/
+
+.contact-form{
+	margin: 0;
+	margin-top: 50px;
+	position: relative;
+}
+.contact-form .form{
+    margin-left: -30px;
+    position: absolute;
+}
+.contact-form-area{
+	background: #15141a;
+
+
+}
+.contact-form-area form{
+	padding: 30px;
+}
+.contact-form-area form input,
+.contact-form-area form textarea{
+	margin-bottom: 10px;
+	border: none;
+	border: 1px solid grey;
+	background: transparent;
+	border-radius: 0;
+}
+.contact-form-area button{
+	margin-top: 15px;
+	right: 0;
+}
+.contact-form-area .form-group input:focus,
+.contact-form-area .form-group textarea:focus{
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+.google-map{
+
+}
+.footer {
+	margin: 0;
+	padding: 0;
+	
+background: #15141a;
+	
+padding-top: 50px;
+padding-bottom: -10px;
+}
+.footer p {
+	color: #444348;
+	font-size: 14px;
+}
+#features-section{
+	transition: .5s;
+}
+#contact-us{
+	transition: 1s;
+}
+.social i{
+	color: #444348;
+    margin-right: 15px;
+    font-size: 23px;
+}
+.social text{
+		text-align: center;
+		color: #444348;
+		font-size: 22px;
+		text-transform: uppercase;
+	
+}
+.social i:hover{
+	color: #008ed6;
+}

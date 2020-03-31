@@ -1,0 +1,61 @@
+@media (max-width: 767.99px) 
+{ .banner .btn-primary{
+
+padding: 0;
+
+margin: 0;
+
+padding: 5px 10px;
+}
+.banner .extra{
+
+padding: 0;
+
+margin: 0;
+
+margin-left: 3px;
+
+padding: 5px 10px;
+}
+	.banner .device{
+
+
+bottom: 100px;
+
+margin: 0;
+
+right: 0;
+
+	} 
+}
+@media (max-width: 575.99px) 
+{ .banner .btn-primary{
+
+padding: 0;
+
+margin: 0;
+
+padding: 5px 10px;
+}
+.banner .extra{
+
+padding: 0;
+
+margin: 0;
+
+margin-left: 3px;
+
+padding: 5px 10px;
+}
+	.banner .device{
+
+bottom: 49px;
+
+margin: 0;
+
+right: 0;
+
+width: 33%;
+
+} 
+}
